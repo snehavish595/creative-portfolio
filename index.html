@@ -1,0 +1,839 @@
+<!DOCTYPE html>
+<html lang="en" class="js-off">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DevMatrix - Portfolio Template</title>
+    <meta
+      name="description"
+      content="DEVMATRIX: Premium, modern dark-themed portfolio for professional developers. Clean code, 2026 design trends (Glassmorphism, Gradient)."
+    />
+    <meta
+      name="keywords"
+      content="web developer, portfolio, front-end, back-end, senior engineer, html, css, javascript, template, glassmorphism"
+    />
+    <meta name="author" content="Dev Matrix" />
+
+    <meta property="og:title" content="DEVMATRIX Portfolio Template" />
+    <meta
+      property="og:description"
+      content="A next-gen professional portfolio using modern UI/UX trends."
+    />
+    <meta property="og:image" content="assets/images/og-image.png" />
+
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico" />
+
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome Local -->
+    <link rel="stylesheet" href="assets/vendor/fontawesome/css/all.min.css" />
+
+    <!-- AOS Animation CSS -->
+    <link rel="stylesheet" href="assets/vendor/aos/aos.css" />
+  </head>
+
+  <body class="theme-dark">
+    <div id="preloader" class="preloader">
+      <div class="preloader__logo">DEVMATRIX</div>
+      <div class="preloader__spinner"></div>
+    </div>
+
+    <header class="header">
+      <div class="container header__container">
+        <a href="#hero" class="header__logo"
+          >DEV<span class="header__logo--accent">MATRIX</span></a
+        >
+
+        <nav class="nav" aria-label="Main Navigation">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#hero" class="nav__link nav__link--active">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">About</a>
+            </li>
+            <li class="nav__item">
+              <a href="#services" class="nav__link">Services</a>
+            </li>
+            <li class="nav__item">
+              <a href="#portfolio" class="nav__link">Portfolio</a>
+            </li>
+            <li class="nav__item">
+              <a href="#experience" class="nav__link">Experience</a>
+            </li>
+            <li class="nav__item">
+              <a href="#pricing" class="nav__link">Pricing</a>
+            </li>
+            <li class="nav__item">
+              <a href="#testimonials" class="nav__link">Reviews</a>
+            </li>
+            <li class="nav__item">
+              <a href="#blog" class="nav__link">Blog</a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#contact" class="nav__link nav__link--cta">Contact</a>
+            </li>
+          </ul>
+        </nav>
+
+        <button
+          class="nav__toggler"
+          aria-label="Toggle navigation"
+          aria-expanded="false"
+        >
+          <span class="nav__toggler-line"></span>
+          <span class="nav__toggler-line"></span>
+          <span class="nav__toggler-line"></span>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section id="hero" class="section section--hero">
+        <div class="container section__container">
+          <div class="hero__content">
+            <p class="hero__subtitle" data-aos="fade-up" data-aos-delay="100">
+              Senior Full-Stack Architect
+            </p>
+            <h1 class="hero__title" data-aos="fade-up" data-aos-delay="200">
+              Crafting
+              <span class="hero__title-animated"
+                >Seamless Digital Experiences</span
+              >
+            </h1>
+            <p class="hero__text" data-aos="fade-up" data-aos-delay="300">
+              I bridge the gap between complex engineering and beautiful,
+              intuitive design. Let's build the future, one elegant line of code
+              at a time.
+            </p>
+            <div class="hero__actions" data-aos="fade-up" data-aos-delay="400">
+              <a href="#portfolio" class="btn btn--primary"
+                >View Portfolio <i class="fa-solid fa-arrow-right"></i
+              ></a>
+              <a href="#contact" class="btn btn--secondary">Get Started</a>
+            </div>
+          </div>
+          <div class="hero__image" data-aos="fade-left" data-aos-delay="500">
+            <div class="hero-img-wrapper">
+              <img
+                src="assets/images/hero.png"
+                alt="Developer Abstract"
+                class="hero-img-blob"
+              />
+              <div class="hero-decor-dot hero-dot-1"></div>
+              <div class="hero-decor-dot hero-dot-2"></div>
+              <div class="hero-decor-dot hero-dot-3"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section section--about">
+        <div class="container section__container">
+          <div class="about__image-block" data-aos="fade-right">
+            <div class="glass-card about__glass-card">
+              <i class="fa-solid fa-cloud-arrow-up about__icon-main"></i>
+              <p class="about__fact-text">
+                8+ Years of Cloud Architecture Experience
+              </p>
+            </div>
+            <img
+              src="assets/images/placeholder-dev.jpeg"
+              alt="Royalty free image of a developer"
+              class="about__img"
+              loading="lazy"
+            />
+          </div>
+          <div class="about__content" data-aos="fade-left" data-aos-delay="200">
+            <h2 class="section__title">
+              The Architect Behind the
+              <span class="section__title--accent">Code</span>
+            </h2>
+            <p class="about__lead-text">
+              My expertise lies in building resilient, scalable distributed
+              systems using modern JavaScript (Node.js/React) and Infrastructure
+              as Code (Terraform).
+            </p>
+            <ul class="about__list">
+              <li class="about__list-item">
+                <i class="fa-solid fa-check-circle"></i> High-performance web
+                optimization.
+              </li>
+              <li class="about__list-item">
+                <i class="fa-solid fa-check-circle"></i> CI/CD and DevOps
+                automation.
+              </li>
+              <li class="about__list-item">
+                <i class="fa-solid fa-check-circle"></i> Clean, testable, and
+                maintainable code architecture.
+              </li>
+            </ul>
+            <a href="#contact" class="btn btn--primary btn--small"
+              >Discuss a Project</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <section id="services" class="section section--services">
+        <div class="container">
+          <h2 class="section__title section__title--center" data-aos="fade-up">
+            My <span class="section__title--accent">Core Services</span>
+          </h2>
+          <div class="services__grid">
+            <div class="service-card" data-aos="zoom-in" data-aos-delay="100">
+              <div class="service-card__icon">
+                <i class="fa-solid fa-laptop-code"></i>
+              </div>
+              <h3 class="service-card__title">Front-End Development</h3>
+              <p class="service-card__text">
+                Pixel-perfect, responsive UI/UX using React, Next.js, and modern
+                CSS/SCSS architecture.
+              </p>
+              <a href="#" class="service-card__link"
+                >Learn More <i class="fa-solid fa-arrow-right"></i
+              ></a>
+            </div>
+            <div class="service-card" data-aos="zoom-in" data-aos-delay="200">
+              <div class="service-card__icon">
+                <i class="fa-solid fa-server"></i>
+              </div>
+              <h3 class="service-card__title">Back-End & APIs</h3>
+              <p class="service-card__text">
+                Robust, scalable, and secure REST/GraphQL APIs built with
+                Node.js, Python, and microservices.
+              </p>
+              <a href="#" class="service-card__link"
+                >Learn More <i class="fa-solid fa-arrow-right"></i
+              ></a>
+            </div>
+            <div class="service-card" data-aos="zoom-in" data-aos-delay="300">
+              <div class="service-card__icon">
+                <i class="fa-solid fa-cloud"></i>
+              </div>
+              <h3 class="service-card__title">Cloud & DevOps</h3>
+              <p class="service-card__text">
+                Full AWS/Azure deployments, CI/CD pipelines, Docker, Kubernetes,
+                and Terraform IaC.
+              </p>
+              <a href="#" class="service-card__link"
+                >Learn More <i class="fa-solid fa-arrow-right"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="portfolio" class="section section--portfolio">
+        <div class="container">
+          <h2 class="section__title section__title--center" data-aos="fade-up">
+            My Latest <span class="section__title--accent">Projects</span>
+          </h2>
+
+          <div
+            class="portfolio__filter"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
+            <button class="filter-btn filter-btn--active" data-filter="all">
+              All
+            </button>
+            <button class="filter-btn" data-filter="frontend">Frontend</button>
+            <button class="filter-btn" data-filter="backend">Backend</button>
+            <button class="filter-btn" data-filter="devops">DevOps</button>
+          </div>
+
+          <div class="portfolio__grid">
+            <div
+              class="project-card backend"
+              data-aos="zoom-in"
+              data-aos-delay="200"
+            >
+              <div class="project-card__image-wrap">
+                <img
+                  src="assets/images/project-1.jpeg"
+                  alt="Project Placeholder"
+                  loading="lazy"
+                />
+              </div>
+              <div class="project-card__content glass-card">
+                <span class="project-card__tag">Backend</span>
+                <h3 class="project-card__title">
+                  Microservice Payment Gateway
+                </h3>
+                <a href="#" class="project-card__link"
+                  >View Case Study <i class="fa-solid fa-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+
+            <div
+              class="project-card frontend"
+              data-aos="zoom-in"
+              data-aos-delay="300"
+            >
+              <div class="project-card__image-wrap">
+                <img
+                  src="assets/images/project-2.jpeg"
+                  alt="Project Placeholder"
+                  loading="lazy"
+                />
+              </div>
+              <div class="project-card__content glass-card">
+                <span class="project-card__tag">Frontend</span>
+                <h3 class="project-card__title">AI Chatbot Interface</h3>
+                <a href="#" class="project-card__link"
+                  >View Demo <i class="fa-solid fa-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+
+            <div
+              class="project-card devops"
+              data-aos="zoom-in"
+              data-aos-delay="400"
+            >
+              <div class="project-card__image-wrap">
+                <img
+                  src="assets/images/project-3.jpeg"
+                  alt="Project Placeholder"
+                  loading="lazy"
+                />
+              </div>
+              <div class="project-card__content glass-card">
+                <span class="project-card__tag">DevOps</span>
+                <h3 class="project-card__title">
+                  Terraform Multi-Cloud Module
+                </h3>
+                <a href="#" class="project-card__link"
+                  >View GitHub <i class="fa-solid fa-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="experience" class="section section--experience">
+        <div class="container">
+          <h2 class="section__title section__title--center" data-aos="fade-up">
+            My Professional
+            <span class="section__title--accent">Timeline</span> &
+            <span class="section__title--accent">Achievements</span>
+          </h2>
+
+          <div class="experience__timeline">
+            <div class="timeline-item" data-aos="fade-up">
+              <div class="timeline-item__content">
+                <span class="timeline-item__date">2020 - Present</span>
+                <h3 class="timeline-item__title">
+                  Principal Software Architect
+                </h3>
+                <p class="timeline-item__company">Tech Innovators Group</p>
+                <ul class="timeline-item__list">
+                  <li>
+                    Led the migration of a legacy monolithic application to a
+                    highly available, serverless microservices architecture,
+                    reducing cloud costs by 30%.
+                  </li>
+                  <li>
+                    Mentored a team of 5 engineers on best practices for CI/CD,
+                    resulting in a 50% faster deployment cycle.
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="timeline-item" data-aos="fade-up" data-aos-delay="150">
+              <div class="timeline-item__content">
+                <span class="timeline-item__date">2017 - 2020</span>
+                <h3 class="timeline-item__title">Senior Full-Stack Engineer</h3>
+                <p class="timeline-item__company">Global Web Solutions</p>
+                <ul class="timeline-item__list">
+                  <li>
+                    Developed a real-time data visualization dashboard used by
+                    over 10,000 daily active users.
+                  </li>
+                  <li>
+                    Implemented comprehensive end-to-end testing, which
+                    decreased production bugs by 75%.
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div
+              class="timeline-item timeline-item--achievement"
+              data-aos="fade-up"
+              data-aos-delay="300"
+            >
+              <div class="timeline-item__content">
+                <span class="timeline-item__date"
+                  ><i class="fa-solid fa-trophy"></i> Awarded</span
+                >
+                <h3 class="timeline-item__title">
+                  The Excellence in Engineering Award
+                </h3>
+                <p class="timeline-item__company">
+                  Internal Company Recognition (2022)
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="pricing" class="section section--pricing">
+        <div class="container">
+          <h2 class="section__title section__title--center" data-aos="fade-up">
+            Transparent
+            <span class="section__title--accent">Pricing Plans</span>
+          </h2>
+          <div class="pricing__grid">
+            <div class="pricing-card" data-aos="fade-up" data-aos-delay="100">
+              <h3 class="pricing-card__title">Standard Build</h3>
+              <p class="pricing-card__subtitle">Core Website Development</p>
+              <div class="pricing-card__price">
+                $2,500 <span class="pricing-card__unit">+</span>
+              </div>
+              <ul class="pricing-card__features">
+                <li><i class="fa-solid fa-bolt"></i> Responsive Frontend</li>
+                <li>
+                  <i class="fa-solid fa-database"></i> Simple CMS Integration
+                </li>
+                <li>
+                  <i class="fa-solid fa-hourglass-start"></i> Est. 4-6 Weeks
+                </li>
+                <li class="feature--muted">
+                  <i class="fa-solid fa-circle-xmark"></i> Advanced API
+                  Integration
+                </li>
+                <li class="feature--muted">
+                  <i class="fa-solid fa-circle-xmark"></i> Dedicated DevOps
+                  Support
+                </li>
+              </ul>
+              <a href="#contact" class="btn btn--secondary">Choose Plan</a>
+            </div>
+
+            <div
+              class="pricing-card pricing-card--featured"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <h3 class="pricing-card__title">Pro Architect</h3>
+              <p class="pricing-card__subtitle">Full Stack & Scalability</p>
+              <div class="pricing-card__price">
+                $7,900 <span class="pricing-card__unit">+</span>
+              </div>
+              <ul class="pricing-card__features">
+                <li><i class="fa-solid fa-bolt"></i> Responsive Frontend</li>
+                <li>
+                  <i class="fa-solid fa-database"></i> Full Custom Backend API
+                </li>
+                <li>
+                  <i class="fa-solid fa-hourglass-start"></i> Est. 8-12 Weeks
+                </li>
+                <li>
+                  <i class="fa-solid fa-check-circle"></i> Advanced API
+                  Integration
+                </li>
+                <li>
+                  <i class="fa-solid fa-check-circle"></i> 3 Months DevOps
+                  Support
+                </li>
+              </ul>
+              <a href="#contact" class="btn btn--primary">Start Pro Project</a>
+            </div>
+
+            <div class="pricing-card" data-aos="fade-up" data-aos-delay="300">
+              <h3 class="pricing-card__title">Enterprise DevMatrix</h3>
+              <p class="pricing-card__subtitle">
+                Distributed Systems & Consulting
+              </p>
+              <div class="pricing-card__price">Custom</div>
+              <ul class="pricing-card__features">
+                <li>
+                  <i class="fa-solid fa-bolt"></i> Microservices Architecture
+                </li>
+                <li>
+                  <i class="fa-solid fa-database"></i> Dedicated DB Optimization
+                </li>
+                <li>
+                  <i class="fa-solid fa-hourglass-start"></i> Ongoing Engagement
+                </li>
+                <li>
+                  <i class="fa-solid fa-check-circle"></i> Advanced API
+                  Integration
+                </li>
+                <li>
+                  <i class="fa-solid fa-check-circle"></i> CI/CD & Full Cloud
+                  Setup
+                </li>
+              </ul>
+              <a href="#contact" class="btn btn--secondary">Contact Sales</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="testimonials" class="section section--testimonials">
+        <div class="container">
+          <h2 class="section__title section__title--center" data-aos="fade-up">
+            Client <span class="section__title--accent">Feedback Loop</span>
+          </h2>
+
+          <div
+            class="testimonial-slider"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
+            <div class="testimonial-slider__track">
+              <div class="testimonial-card glass-card">
+                <div class="testimonial-card__quote-icon">
+                  <i class="fa-solid fa-quote-right"></i>
+                </div>
+                <p class="testimonial-card__text">
+                  "The migration to a serverless architecture was flawless and
+                  completed ahead of schedule. Performance increased by over 40%
+                  immediately. True professionalism."
+                </p>
+                <div class="testimonial-card__author">
+                  <img
+                    src="assets/images/avatar-1.jpeg
+                                "
+                    alt="Client Avatar"
+                    class="testimonial-card__avatar"
+                    loading="lazy"
+                  />
+                  <div>
+                    <p class="testimonial-card__name">
+                      Jane D. | CTO, Apex Systems
+                    </p>
+                    <div class="testimonial-card__rating">
+                      <i class="fa-solid fa-star"></i
+                      ><i class="fa-solid fa-star"></i
+                      ><i class="fa-solid fa-star"></i
+                      ><i class="fa-solid fa-star"></i
+                      ><i class="fa-solid fa-star"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="testimonial-card glass-card">
+                <div class="testimonial-card__quote-icon">
+                  <i class="fa-solid fa-quote-right"></i>
+                </div>
+                <p class="testimonial-card__text">
+                  "Exceptional communication and mastery of the MERN stack. Our
+                  new data dashboard is intuitive, fast, and exactly what we
+                  needed for our internal analysts."
+                </p>
+                <div class="testimonial-card__author">
+                  <img
+                    src="assets/images/avatar-2.jpeg"
+                    alt="Client Avatar"
+                    class="testimonial-card__avatar"
+                    loading="lazy"
+                  />
+                  <div>
+                    <p class="testimonial-card__name">
+                      Mark S. | Product Lead, DataFlow
+                    </p>
+                    <div class="testimonial-card__rating">
+                      <i class="fa-solid fa-star"></i
+                      ><i class="fa-solid fa-star"></i
+                      ><i class="fa-solid fa-star"></i
+                      ><i class="fa-solid fa-star"></i
+                      ><i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="testimonial-card glass-card">
+                <div class="testimonial-card__quote-icon">
+                  <i class="fa-solid fa-quote-right"></i>
+                </div>
+                <p class="testimonial-card__text">
+                  "The migration to a serverless architecture was flawless and
+                  completed ahead of schedule. Performance increased by over 40%
+                  immediately. True professionalism."
+                </p>
+                <div class="testimonial-card__author">
+                  <img
+                    src="assets/images/avatar-1.webp"
+                    alt="Client Avatar"
+                    class="testimonial-card__avatar"
+                    loading="lazy"
+                  />
+                  <div>
+                    <p class="testimonial-card__name">
+                      Jane D. | CTO, Apex Systems
+                    </p>
+                    <div class="testimonial-card__rating">
+                      <i class="fa-solid fa-star"></i
+                      ><i class="fa-solid fa-star"></i
+                      ><i class="fa-solid fa-star"></i
+                      ><i class="fa-solid fa-star"></i
+                      ><i class="fa-solid fa-star"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="testimonial-slider__dots">
+              <span class="dot dot--active" data-slide="0"></span>
+              <span class="dot" data-slide="1"></span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="blog" class="section section--blog">
+        <div class="container">
+          <h2 class="section__title section__title--center" data-aos="fade-up">
+            Latest <span class="section__title--accent">Tech Insights</span>
+          </h2>
+          <div class="blog__grid">
+            <article class="blog-card" data-aos="fade-up" data-aos-delay="100">
+              <div class="blog-card__image-wrap">
+                <img
+                  src="assets/images/blog-1.png"
+                  alt="Blog Image Placeholder"
+                  loading="lazy"
+                />
+              </div>
+              <div class="blog-card__content">
+                <span class="blog-card__tag">DevOps</span>
+                <h3 class="blog-card__title">
+                  Terraform State Management for Large Teams
+                </h3>
+                <p class="blog-card__excerpt">
+                  Deep dive into remote state, locking, and best practices for
+                  collaborative infrastructure as code.
+                </p>
+                <a href="#" class="blog-card__link"
+                  >Read Article <i class="fa-solid fa-long-arrow-alt-right"></i
+                ></a>
+              </div>
+            </article>
+
+            <article class="blog-card" data-aos="fade-up" data-aos-delay="200">
+              <div class="blog-card__image-wrap">
+                <img
+                  src="assets/images/blog-2.png"
+                  alt="Blog Image Placeholder"
+                  loading="lazy"
+                />
+              </div>
+              <div class="blog-card__content">
+                <span class="blog-card__tag">Frontend</span>
+                <h3 class="blog-card__title">
+                  The Future of UI: CSS Container Queries
+                </h3>
+                <p class="blog-card__excerpt">
+                  How container queries revolutionize component-based design for
+                  truly flexible layouts.
+                </p>
+                <a href="#" class="blog-card__link"
+                  >Read Article <i class="fa-solid fa-long-arrow-alt-right"></i
+                ></a>
+              </div>
+            </article>
+
+            <article class="blog-card" data-aos="fade-up" data-aos-delay="300">
+              <div class="blog-card__image-wrap">
+                <img
+                  src="assets/images/blog-3.png"
+                  alt="Blog Image Placeholder"
+                  loading="lazy"
+                />
+              </div>
+              <div class="blog-card__content">
+                <span class="blog-card__tag">Backend</span>
+                <h3 class="blog-card__title">
+                  Optimizing PostgreSQL for 100k Concurrent Users
+                </h3>
+                <p class="blog-card__excerpt">
+                  Practical strategies for query tuning, indexing, and
+                  connection pooling in high-load scenarios.
+                </p>
+                <a href="#" class="blog-card__link"
+                  >Read Article <i class="fa-solid fa-long-arrow-alt-right"></i
+                ></a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section section--contact">
+        <div class="container section__container">
+          <div class="contact__form-wrap glass-card" data-aos="zoom-in">
+            <h2 class="section__title contact__title">
+              Initiate
+              <span class="section__title--accent">The Connection</span>
+            </h2>
+            <p class="contact__subtitle">
+              Securely send your project brief. I'll get back to you within 24
+              hours.
+            </p>
+
+            <form
+              id="contact-form"
+              class="contact__form"
+              action="#"
+              method="POST"
+            >
+              <div class="form-group">
+                <label for="name" class="form__label">Full Name</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  class="form__input"
+                  placeholder="Your Name"
+                  required
+                />
+                <p class="form__error" id="name-error"></p>
+              </div>
+              <div class="form-group">
+                <label for="email" class="form__label">Work Email</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  class="form__input"
+                  placeholder="Email Address"
+                  required
+                />
+                <p class="form__error" id="email-error"></p>
+              </div>
+              <div class="form-group">
+                <label for="subject" class="form__label">Subject</label>
+                <input
+                  type="text"
+                  id="subject"
+                  name="subject"
+                  class="form__input"
+                  placeholder="Project, Quote, or Inquiry"
+                  required
+                />
+                <p class="form__error" id="subject-error"></p>
+              </div>
+              <div class="form-group">
+                <label for="message" class="form__label">Your Message</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  class="form__textarea"
+                  rows="5"
+                  placeholder="Detailed project requirements, budget, timeline..."
+                  required
+                ></textarea>
+                <p class="form__error" id="message-error"></p>
+              </div>
+              <button
+                type="submit"
+                class="btn btn--primary btn--full-width"
+                id="submit-btn"
+              >
+                Send Secure Transmission
+              </button>
+              <p class="form__status" id="form-status"></p>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__container">
+        <div class="footer__col footer__col--brand">
+          <a href="#hero" class="footer__logo"
+            >DEV<span class="footer__logo--accent">MATRIX</span></a
+          >
+          <p class="footer__tagline">The future is built on clean code.</p>
+          <div class="footer__socials">
+            <a
+              href="#"
+              aria-label="Facebook Profile"
+              class="footer__social-link"
+            >
+              <img src="assets/images/facebook.png"
+            /></a>
+            <a
+              href="#"
+              aria-label="LinkedIn Profile"
+              class="footer__social-link"
+            >
+              <img src="assets/images/linkedin.png"
+            /></a>
+            <a
+              href="#"
+              aria-label="Twitter Profile"
+              class="footer__social-link"
+            >
+              <img src="assets/images/twitter.png"
+            /></a>
+          </div>
+        </div>
+
+        <div class="footer__col">
+          <h4 class="footer__heading">Quick Links</h4>
+          <ul class="footer__list">
+            <li><a href="#about" class="footer__link">About Me</a></li>
+            <li><a href="#portfolio" class="footer__link">My Projects</a></li>
+            <li><a href="#pricing" class="footer__link">Pricing</a></li>
+            <li><a href="#contact" class="footer__link">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__col footer__col--newsletter">
+          <h4 class="footer__heading">Newsletter</h4>
+          <p class="footer__text">
+            Subscribe for my weekly architecture tips and tutorials.
+          </p>
+          <form class="footer__newsletter-form">
+            <input
+              type="email"
+              placeholder="Enter your email"
+              required
+              class="footer__newsletter-input"
+            />
+            <button type="submit" class="btn btn--primary btn--newsletter">
+              <i class="fa-solid fa-paper-plane"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <p class="footer__copyright">
+          &copy; 2025 DEVMATRIX. All Rights Reserved.
+        </p>
+      </div>
+    </footer>
+
+    <button id="back-to-top" class="back-to-top" aria-label="Back to Top">
+      <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+    <!-- AOS Animation JS -->
+    <script src="assets/vendor/aos/aos.js"></script>
+
+    <!-- Your custom JS -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
